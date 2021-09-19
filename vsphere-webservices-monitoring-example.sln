@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vSphere Monitoring CLI", "vSphere Monitoring CLI\vSphere Monitoring CLI.csproj", "{F92395D0-A0F6-4DBA-B3FD-40FD5CC7AD11}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2D98A98E-9835-4956-B41F-D6A3D2FFF450} = {2D98A98E-9835-4956-B41F-D6A3D2FFF450}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vSphere WS Client", "vSphere WS Client\vSphere WS Client.csproj", "{2D98A98E-9835-4956-B41F-D6A3D2FFF450}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F92395D0-A0F6-4DBA-B3FD-40FD5CC7AD11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F92395D0-A0F6-4DBA-B3FD-40FD5CC7AD11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F92395D0-A0F6-4DBA-B3FD-40FD5CC7AD11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F92395D0-A0F6-4DBA-B3FD-40FD5CC7AD11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D98A98E-9835-4956-B41F-D6A3D2FFF450}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D98A98E-9835-4956-B41F-D6A3D2FFF450}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D98A98E-9835-4956-B41F-D6A3D2FFF450}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D98A98E-9835-4956-B41F-D6A3D2FFF450}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E6954459-4C19-43E8-A2A7-38D4E6F17155}
+	EndGlobalSection
+EndGlobal
